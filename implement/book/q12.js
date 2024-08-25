@@ -40,7 +40,7 @@ function checkBo(x,y){
 }
 
 function checkGidung(x,y){
-    if(x === 0 || mat[x-1][y] === 1 || mat[x][y-1] === 0){
+    if(y === 0 || mat[x-1][y] === 1 || mat[x][y-1] === 0){
         return true;
     }
     return false;
